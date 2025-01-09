@@ -1,11 +1,13 @@
 import express from "express";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import cors from "cors";
 
 dotenv.config();
 const app = express();
 const router = express.Router();
 
+app.use(cors());
 app.use(express.json());
 const sendmail = (req, res, next) => {
   try {
