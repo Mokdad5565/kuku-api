@@ -37,7 +37,7 @@ const sendmail = (req, res, next) => {
 router.get("/site", sendmail);
 app.use("/api/v1", router);
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "smtp.hostinger.com",
   port: 587,
   secure: false,
   auth: {
