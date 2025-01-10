@@ -85,6 +85,10 @@ function sendEmail(submissionDetails) {
                 <td style="padding: 8px; border: 1px solid #ddd;">${submissionDetails.phone}</td>
               </tr>
               <tr>
+                <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">email:</td>
+                <td style="padding: 8px; border: 1px solid #ddd;">${submissionDetails.email}</td>
+              </tr>
+              <tr>
                 <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Food Rating:</td>
                 <td style="padding: 8px; border: 1px solid #ddd;">${submissionDetails.food}</td>
               </tr>
